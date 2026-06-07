@@ -1,0 +1,401 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E938D15F-571E-4678-9296-55907091F094}|PayrollManagement.Tests\\PayrollManagement.Tests.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.tests\\payrollcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E938D15F-571E-4678-9296-55907091F094}|PayrollManagement.Tests\\PayrollManagement.Tests.csproj|solutionrelative:payrollmanagement.tests\\payrollcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\database scripts\\indexes.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\database scripts\\indexes.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\controllers\\payrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\controllers\\payrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\database scripts\\storedprocedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\database scripts\\storedprocedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\services\\payrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\services\\payrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\services\\ipayrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\services\\ipayrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\repositories\\payrollrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\repositories\\payrollrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\repositories\\ipayrollrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\repositories\\ipayrollrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\wwwroot\\payslip.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\wwwroot\\payslip.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\services\\payrollcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\services\\payrollcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\database scripts\\seeddata.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\database scripts\\seeddata.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\database scripts\\tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\database scripts\\tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\dtos\\payrollresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\dtos\\payrollresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\dtos\\payrollrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\dtos\\payrollrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|c:\\users\\payrollmanagementapi\\payrollmanagement.api\\payrollmanagement.api\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35561D70-97CE-4764-8959-147C21FB9097}|PayrollManagement.API\\PayrollManagement.API.csproj|solutionrelative:payrollmanagement.api\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\README.md",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\README.md",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\README.md",
+              "RelativeToolTip": "PayrollManagement.API\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-06T14:47:03.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PayrollCalculatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.Tests\\PayrollCalculatorTests.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.Tests\\PayrollCalculatorTests.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.Tests\\PayrollCalculatorTests.cs",
+              "RelativeToolTip": "PayrollManagement.Tests\\PayrollCalculatorTests.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T14:39:32.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\wwwroot\\index.html",
+              "RelativeToolTip": "PayrollManagement.API\\wwwroot\\index.html",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAAAAsBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-06T14:20:17.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Indexes.sql",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\DataBase Scripts\\Indexes.sql",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\DataBase Scripts\\Indexes.sql",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\DataBase Scripts\\Indexes.sql",
+              "RelativeToolTip": "PayrollManagement.API\\DataBase Scripts\\Indexes.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-06-06T14:15:40.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "PayrollManagement.API\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T13:38:13.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Services\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\Services\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Services\\IEmployeeService.cs",
+              "RelativeToolTip": "PayrollManagement.API\\Services\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T13:37:48.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "PayrollManagement.API\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T13:36:48.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Repositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\Repositories\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Repositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "PayrollManagement.API\\Repositories\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T13:36:13.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "PayrollManagement.API\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T13:35:15.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Payslip.html",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\wwwroot\\Payslip.html",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\wwwroot\\Payslip.html",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\wwwroot\\Payslip.html",
+              "RelativeToolTip": "PayrollManagement.API\\wwwroot\\Payslip.html",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwCwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-06T13:28:56.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PayrollCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Services\\PayrollCalculator.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\Services\\PayrollCalculator.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Services\\PayrollCalculator.cs",
+              "RelativeToolTip": "PayrollManagement.API\\Services\\PayrollCalculator.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T13:12:02.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StoredProcedure.sql",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\DataBase Scripts\\StoredProcedure.sql",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\DataBase Scripts\\StoredProcedure.sql",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\DataBase Scripts\\StoredProcedure.sql",
+              "RelativeToolTip": "PayrollManagement.API\\DataBase Scripts\\StoredProcedure.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-06-06T12:58:08.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SeedData.sql",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\DataBase Scripts\\SeedData.sql",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\DataBase Scripts\\SeedData.sql",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\DataBase Scripts\\SeedData.sql",
+              "RelativeToolTip": "PayrollManagement.API\\DataBase Scripts\\SeedData.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-06-06T12:57:37.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Tables.sql",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\DataBase Scripts\\Tables.sql",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\DataBase Scripts\\Tables.sql",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\DataBase Scripts\\Tables.sql",
+              "RelativeToolTip": "PayrollManagement.API\\DataBase Scripts\\Tables.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-06-06T12:56:46.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\appsettings.json",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\appsettings.json",
+              "RelativeToolTip": "PayrollManagement.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-06T12:49:16.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PayrollController.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Controllers\\PayrollController.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\Controllers\\PayrollController.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Controllers\\PayrollController.cs",
+              "RelativeToolTip": "PayrollManagement.API\\Controllers\\PayrollController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwEMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T12:47:25.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\Program.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Program.cs",
+              "RelativeToolTip": "PayrollManagement.API\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T12:46:41.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PayrollService.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Services\\PayrollService.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\Services\\PayrollService.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Services\\PayrollService.cs",
+              "RelativeToolTip": "PayrollManagement.API\\Services\\PayrollService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T12:46:25.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IPayrollService.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Services\\IPayrollService.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\Services\\IPayrollService.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Services\\IPayrollService.cs",
+              "RelativeToolTip": "PayrollManagement.API\\Services\\IPayrollService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T12:45:59.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PayrollRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Repositories\\PayrollRepository.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\Repositories\\PayrollRepository.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Repositories\\PayrollRepository.cs",
+              "RelativeToolTip": "PayrollManagement.API\\Repositories\\PayrollRepository.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAswKUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T12:43:12.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IPayrollRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Repositories\\IPayrollRepository.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\Repositories\\IPayrollRepository.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Repositories\\IPayrollRepository.cs",
+              "RelativeToolTip": "PayrollManagement.API\\Repositories\\IPayrollRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwBIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T12:42:37.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PayrollResponse.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Dtos\\PayrollResponse.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\Dtos\\PayrollResponse.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Dtos\\PayrollResponse.cs",
+              "RelativeToolTip": "PayrollManagement.API\\Dtos\\PayrollResponse.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T12:42:02.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PayrollRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Dtos\\PayrollRequest.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\Dtos\\PayrollRequest.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Dtos\\PayrollRequest.cs",
+              "RelativeToolTip": "PayrollManagement.API\\Dtos\\PayrollRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T12:41:38.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "PayrollManagement.API\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\PayrollManagementAPI\\PayrollManagement.API\\PayrollManagement.API\\Models\\Employee.cs",
+              "RelativeToolTip": "PayrollManagement.API\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T12:40:57.234Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

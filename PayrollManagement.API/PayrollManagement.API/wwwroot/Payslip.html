@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Payslip</title>
+</head>
+<body>
+
+    <h2>Employee Payslip</h2>
+
+    <div id="payslip"></div>
+
+    <button onclick="window.print()">
+        Print Payslip
+    </button>
+
+    <script>
+
+async function loadPayslip()
+{
+    let response =
+        await fetch(
+        '/api/payroll/1/slip/1');
+
+    let data =
+        await response.json();
+
+    document
+        .getElementById("payslip")
+        .innerHTML =
+        `
+        <p><b>Employee :</b> ${data.employeeName}</p>
+        <p><b>Basic Salary :</b> ${data.basicSalary}</p>
+        <p><b>Gross Pay :</b> ${data.grossPay}</p>
+        <p><b>PF :</b> ${data.pfDeduction}</p>
+        <p><b>Professional Tax :</b> ${data.professionalTax}</p>
+        <p><b>Net Pay :</b> ${data.netPay}</p>
+        `;
+}
+
+loadPayslip();
+
+    </script>
+
+</body>
+</html>

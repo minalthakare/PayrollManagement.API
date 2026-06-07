@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Payroll Management System</title>
+
+    ```
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        button {
+            margin: 5px;
+            padding: 8px 12px;
+        }
+
+        #loading {
+            color: blue;
+            font-weight: bold;
+        }
+
+        #message {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+    ```
+
+</head>
+
+<body>
+
+    <h2>Payroll Run Module</h2>
+
+    <label>Month:</label> <input type="number" id="month" value="6">
+
+    <label>Year:</label> <input type="number" id="year" value="2026">
+
+    <button onclick="runPayroll()">
+        Run Payroll
+    </button>
+
+    <button onclick="loadPayrollFromInputs()">
+        View Payroll
+    </button>
+
+    <button onclick="downloadPayroll()">
+        Download CSV
+    </button>
+
+    <button onclick="window.print()">
+        Print Payroll
+    </button>
+
+    <br><br>
+
+    <div id="loading" style="display:none">
+        Loading...
+    </div>
+
+    <div id="message"></div>
+
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Employee Id</th>
+                <th>Name</th>
+                <th>Basic Salary</th>
+                <th>Working Days</th>
+                <th>Days Present</th>
+                <th>Gross Pay</th>
+                <th>PF Deduction</th>
+                <th>Professional Tax</th>
+                <th>Net Pay</th>
+            </tr>
+        </thead>
+
+        ```
+        <tbody id="payrollBody">
+        </tbody>
+        ```
+
+    </table>
+
+    <script>
+
+        let payrollData = [];
+
+        async function runPayroll() {
+            let month =
+                document.getElementById("month").value;
+
+            let year =
+                document.getElementById("year").value;
+
+            let loading =
+                document.getElementById("loading");
+
+            let message =
+                document.getElementById("message");
+
+            try {
+                loading.style.display = "block";
+
+                message.innerHTML = "";
+
+                let response =
+                    await fetch(
+                        "/api/payroll/run",
+                        {
+                            method: "POST",
+
+                            headers:
+                            {
+                                "Content-Type":
+                                    "application/json"
+                            },
+
+                            body: JSON.stringify(
+                                {
+                                    month: parseInt(month),
+                                    year: parseInt(year)
+                                })
+                        });
+
+                if (response.status === 409) {
+                    message.innerHTML =
+                        "Payroll already exists for this month.";
+
+                    await loadPayroll(month, year);
+
+                    return;
+                }
+
+                if (!response.ok) {
+                    throw new Error(
+                        "Payroll generation failed.");
+                }
+
+                message.innerHTML =
+                    "Payroll generated successfully.";
+
+                await loadPayroll(
+                    month,
+                    year);
+            }
+            catch (error) {
+                message.innerHTML =
+                    error.message;
+            }
+            finally {
+                loading.style.display =
+                    "none";
+            }
+        }
+
+        async function loadPayrollFromInputs() {
+            let month =
+                document.getElementById("month").value;
+
+            let year =
+                document.getElementById("year").value;
+
+            await loadPayroll(
+                month,
+                year);
+        }
+
+        async function loadPayroll(
+            month,
+            year) {
+            try {
+                let response =
+                    await fetch(
+                        `/api/payroll/${month}/${year}`);
+
+                if (!response.ok) {
+                    throw new Error(
+                        "Payroll data not found.");
+                }
+
+                let data =
+                    await response.json();
+
+                payrollData = data;
+
+                let html = "";
+
+                data.forEach(item => {
+                    html +=
+                        `
+                <tr>
+                    <td>${item.employeeId}</td>
+                    <td>${item.employeeName}</td>
+                    <td>${item.basicSalary}</td>
+                    <td>${item.workingDays}</td>
+                    <td>${item.daysPresent}</td>
+                    <td>${item.grossPay}</td>
+                    <td>${item.pfDeduction}</td>
+                    <td>${item.professionalTax}</td>
+                    <td>${item.netPay}</td>
+                </tr>
+                `;
+                });
+
+                document.getElementById(
+                    "payrollBody")
+                    .innerHTML = html;
+            }
+            catch (error) {
+                document.getElementById(
+                    "message")
+                    .innerHTML =
+                    error.message;
+            }
+        }
+
+        function downloadPayroll() {
+            if (payrollData.length === 0) {
+                alert(
+                    "No payroll data available.");
+
+                return;
+            }
+
+            let csv =
+                "EmployeeId,Name,BasicSalary,WorkingDays,DaysPresent,GrossPay,PFDeduction,ProfessionalTax,NetPay\n";
+
+            payrollData.forEach(x => {
+                csv +=
+                    `${x.employeeId},${x.employeeName},${x.basicSalary},${x.workingDays},${x.daysPresent},${x.grossPay},${x.pfDeduction},${x.professionalTax},${x.netPay}\n`;
+            });
+
+            let blob =
+                new Blob(
+                    [csv],
+                    {
+                        type:
+                            "text/csv"
+                    });
+
+            let link =
+                document.createElement(
+                    "a");
+
+            link.href =
+                URL.createObjectURL(
+                    blob);
+
+            link.download =
+                "PayrollReport.csv";
+
+            link.click();
+        }
+
+    </script>
+
+</body>
+</html>
